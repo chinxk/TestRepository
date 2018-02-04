@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FileCounterFX.jnlp">
+  <information>
+    <title>FileCounterFX</title>
+    <vendor>chin</vendor>
+    <description>FileCounterFX</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FileCounterFX.jar" size="50485" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="app.counter.main.FileCounterFXController"  name="FileCounterFX" />
+  <update check="background"/>
+</jnlp>
